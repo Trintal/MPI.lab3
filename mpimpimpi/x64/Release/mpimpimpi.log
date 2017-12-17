@@ -1,0 +1,17 @@
+﻿Сборка начата 16.12.2017 22:36:42.
+     1>Проект "C:\Users\Trintal\documents\visual studio 2013\Projects\mpimpimpi\mpimpimpi\mpimpimpi.vcxproj" в узле 2 (целевые объекты Build).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /errorReport:prompt blabla.cpp
+         blabla.cpp
+     1>blabla.cpp(71): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+     1>blabla.cpp(199): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Trintal\documents\visual studio 2013\Projects\mpimpimpi\x64\Release\mpimpimpi.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\Program Files\Microsoft HPC Pack 2012 SDK\Lib\amd64" msmpi.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Trintal\documents\visual studio 2013\Projects\mpimpimpi\x64\Release\mpimpimpi.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Trintal\documents\visual studio 2013\Projects\mpimpimpi\x64\Release\mpimpimpi.lib" /MACHINE:X64 x64\Release\blabla.obj
+         Создание кода
+         Создание кода завершено
+         mpimpimpi.vcxproj -> C:\Users\Trintal\documents\visual studio 2013\Projects\mpimpimpi\x64\Release\mpimpimpi.exe
+     1>Сборка проекта "C:\Users\Trintal\documents\visual studio 2013\Projects\mpimpimpi\mpimpimpi\mpimpimpi.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+Затраченное время: 00:00:05.17
